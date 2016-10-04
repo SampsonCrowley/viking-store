@@ -1,1 +1,2 @@
-"# VCS viking store" 
+# viking-store
+VCS viking store
