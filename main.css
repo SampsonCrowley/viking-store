@@ -121,7 +121,7 @@ section.AtF {
   right: -3px;
   top: 43px;
   border: 2px solid #333;
-  z-index: 100;
+  z-index: 2;
   font-size: 16px;
   line-height: 32px;
 }
