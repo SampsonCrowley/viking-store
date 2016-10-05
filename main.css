@@ -148,18 +148,66 @@ section.AtF {
   display: block;
 }
 .item button{
+  height: 30px;
+  width: 140px;
+  background: #F6B26B;
   background: sandybrown;
-  border: none;
-  font-family: sans-serif;
-  height: 20px;
-  margin: 10px 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #000;
+  text-align: center;
+  margin: 10px auto;
   outline:0;
 }
-.item button:active, .item button:focus{
+.item button:active, .item button:focus {
   outline:0;
   border:0;
 }
 .item button:active {
   border-top: 2px solid #444;
   border-left: 2px solid #444;
+}
+footer {
+  font-size: 0;
+  width: 100%;
+  background: #333;
+  color:#fff;
+}
+footer .container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 20px 0;
+    max-width: 300px;
+}
+footer .title {
+  text-align: center;
+  font-size:30px;
+  color: #F6B26B;
+  color:sandybrown;
+  margin-bottom: 20px; 
+}
+footer .email, footer .phone {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+.ico {
+  height: 20px;
+  width: 20px;
+}
+.ico.mail {
+  background: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/email_white.png) center no-repeat;
+  background-size: contain;
+}
+.ico.phone{
+  background: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/email_white.png) center no-repeat;
+  background-size: contain;
+}
+.contact {
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 1;
+    margin-left: 20px;
 }
