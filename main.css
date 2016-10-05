@@ -12,20 +12,38 @@ header{
   top:0;
   left:0;
   height:40px;
-  line-height: 40px;
-  border-bottom: 1px solid #ccc;
+  line-height: 1;
+  border-bottom: 2px solid #000;
   z-index:100;
 }
 header > div {
   max-width: 960px;
   margin:auto;
 }
-header img{
-  max-height: 20px;
+.logo, .nav-cart div {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav-cart div.img{
+    background: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/icon_empty_cart.png) center no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin-top:10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.nav-cart span{
+    display: inline-block;
+    vertical-align: top;
 }
 header a {
-  color:#333;
-  text-decoration: none
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
 }
 header .logo {
   float:left;
