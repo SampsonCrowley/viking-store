@@ -1,6 +1,35 @@
 body{
+  padding:0;
+  margin:0;
   position:relative;
   min-height:100vh;
   width:100%;
   font: 20px arial, san-serif;
+}
+header{
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  height:40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  z-index:100;
+}
+header > div {
+  max-width: 960px;
+  margin:auto;
+}
+header img{
+  max-height: 20px;
+}
+header a {
+  color:#333;
+  text-decoration: none
+}
+header .logo {
+  float:left;
+}
+header .nav-cart {
+  float:right;
 }
